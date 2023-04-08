@@ -16,7 +16,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import string
 
 # Step 2: Load the CSV file into a pandas DataFrame
-df = pd.read_csv('/Users/danielpinelis/Downloads/archive (3)/all-data.csv', encoding='ISO-8859-1', header=None)
+df = pd.read_csv('all-data.csv', encoding='ISO-8859-1', header=None)
 
 # Step 3: Explore and visualize the data
 print(df.head())
